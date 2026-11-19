@@ -1,0 +1,77 @@
+{
+  "sequence_id": "DEMO_SEQ_01",
+  "project_name": "ClayDirector Synthetic Demo",
+  "fps": 24,
+  "render_settings": {
+    "width": 1280,
+    "height": 720,
+    "aspect_ratio": "16:9",
+    "fps": 24
+  },
+  "shots": [
+    {
+      "shot_id": "DEMO-01",
+      "title": "Morning Courtyard Establishing Shot",
+      "duration_sec": 4,
+      "camera": {
+        "focal_length_mm": 35,
+        "f_stop": 4,
+        "movement": "locked"
+      },
+      "visual_summary": "Wide establishing view of a quiet stone courtyard bathed in soft morning light as mist lifts above the tiles.",
+      "lighting": "Soft diffused dawn daylight with cool shadows and gentle atmospheric haze.",
+      "action_beats": [
+        "0.0-2.0s: Still courtyard bathed in pale morning light.",
+        "2.0-4.0s: Light breeze ripples leaves along the courtyard wall."
+      ],
+      "reference_assets": [
+        "Env_Stone_Courtyard"
+      ],
+      "audio_notes": "Ambient morning breeze and distant leaves rustling."
+    },
+    {
+      "shot_id": "DEMO-02",
+      "title": "Tabletop Teacup Focus Pull",
+      "duration_sec": 4,
+      "camera": {
+        "focal_length_mm": 85,
+        "f_stop": 2,
+        "movement": "locked",
+        "focus_pull": "Foreground wooden table edge -> ceramic teacup in midground"
+      },
+      "visual_summary": "Close-up across a weathered wooden table as focus shifts smoothly onto a warm ceramic teacup releasing faint steam.",
+      "lighting": "Soft window side-light highlighting thin rising wisps of steam.",
+      "action_beats": [
+        "0.0-1.5s: Foreground wood grain crisp; background teacup softly blurred.",
+        "1.5-3.0s: Focus pulls smoothly back onto the teacup rim.",
+        "3.0-4.0s: Steam curls gently upward in morning light."
+      ],
+      "reference_assets": [
+        "Prop_Ceramic_Teacup",
+        "Env_Wooden_Table"
+      ],
+      "audio_notes": "Quiet room tone with subtle wind outside the window."
+    },
+    {
+      "shot_id": "DEMO-03",
+      "title": "Paper Boat Gliding Down a Stream",
+      "duration_sec": 5,
+      "camera": {
+        "focal_length_mm": 50,
+        "f_stop": 2.8,
+        "movement": "gentle_pan"
+      },
+      "visual_summary": "A folded white paper boat drifts smoothly along a clear pebble stream bordered by green ferns.",
+      "lighting": "Dappled sunlight filtering through overhead foliage onto moving water.",
+      "action_beats": [
+        "0.0-2.5s: Paper boat enters from frame left and glides over submerged pebbles.",
+        "2.5-5.0s: Camera pans smoothly right as the boat turns past a mossy stone."
+      ],
+      "reference_assets": [
+        "Prop_Paper_Boat",
+        "Env_Forest_Stream"
+      ],
+      "audio_notes": "Soft babbling stream water and gentle foliage breeze."
+    }
+  ]
+}
