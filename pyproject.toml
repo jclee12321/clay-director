@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "clay-director"
+version = "0.1.0"
+description = "Open-source 3D previs and generative video pipeline toolkit for independent animation."
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.10"
+keywords = ["blender", "previs", "video-pipeline", "animation", "ffmpeg"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Multimedia :: Video",
+]
+
+[project.scripts]
+clay-director = "clay_director.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

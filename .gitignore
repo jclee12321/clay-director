@@ -1,0 +1,26 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+
+# Blender backups & media artifacts
+*.blend1
+*.blend2
+renders/
+exports/
+*.mp4
+*.mov
+*.wav
+*.png
+*.jpg
+
+# Local environment & credentials
+.env
+.env.*
+*.local
